@@ -32,13 +32,13 @@ Example addon config:
 
 ### Setup
 
-First, you have to create an account on Bing web site :https://www.bingmapsportal.com and then you can create your own key. 
+First, you have to create an account on Bing web site https://www.bingmapsportal.com and then you can create your own key. 
 
 You can choose between five differents basemaps :
 Type | Title
 ---- | -----
-Aerial | Aerial imagery.
-AerialWithLabels | Aerial imagery with a road overlay.
-Birdseye | Bird’s eye (oblique|angle) imagery
-BirdseyeWithLabels | Bird’s eye imagery with a road overlay.
-Road | Roads without additional imagery.
+Aerial | Aerial imagery
+AerialWithLabels | Aerial imagery with a road overlay
+Birdseye | Bird’s eye (oblique-angle) imagery
+BirdseyeWithLabels | Bird’s eye imagery with a road overlay
+Road | Roads without additional imagery
