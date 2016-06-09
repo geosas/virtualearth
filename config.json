@@ -1,0 +1,20 @@
+[
+    {
+        "id": "virtualearth_0",
+        "enabled": true,
+        "name": "VirtualEarth",
+        "options": {
+            "key": " Ajf0Bht-S-p3FFY4AhgsiJKHdN6XWuPWTzC9XHrDllUOshHhN5NXtyItuvtdmYBb",
+            "name": "Virtual Earth aerial with labels",
+            "type": "AerialWithLabels"
+        },
+        "title": {
+            "en": "Bing - Virtual Earth Base Map",
+            "fr": "Fond de carte Virtual Earth",
+        },
+        "description": {
+            "en": "Microsoft Bing - Virtual Earth Base Map all over the world",
+            "fr": "Fond de carte Microsoft Bing - Virtual Earth sur le monde entier",
+        }
+    }
+]

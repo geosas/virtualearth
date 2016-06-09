@@ -1,0 +1,22 @@
+{
+    "js": [
+        "js/OpenLayers.Layer.Bing.js",
+        "js/main.js"
+    ],
+    "css": [
+        "css/main.css"
+    ],
+    "default_options": {
+        "target": "tbar_11"
+    },
+    "i18n": {
+        "en": {
+        },
+        "es": {
+        },
+        "fr": {
+        },
+        "de": {
+        }
+    }
+}
