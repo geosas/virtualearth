@@ -35,6 +35,7 @@ Example addon config:
 First, you have to create an account on Bing web site https://www.bingmapsportal.com and then you can create your own key. 
 
 You can choose between five differents basemaps :
+
 Type | Title
 ---- | -----
 Aerial | Aerial imagery
