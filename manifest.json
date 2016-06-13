@@ -11,12 +11,16 @@
     },
     "i18n": {
         "en": {
+            "virtualearth.helper_message": "Virtual Earth Layer is now displayed on the map. Maybe you have to uncheck any other base layers (eg: OSM) to see it"
         },
         "es": {
+            "virtualearth.helper_message": "Virtual Earth ahora se muestra en el mapa . Tal vez usted tiene que desactivar cualquier otra capa de base (por ejemplo: OSM ) para verlo"
         },
         "fr": {
+            "virtualearth.helper_message": "L'image Virtual Earth est maintenant affichée sur la carte. Pour la voir, vous devrez peut-être décocher les autres fonds de carte, ex: Open Street Map"
         },
         "de": {
+            "virtualearth.helper_message": "Virtual Earth wird nun auf der Karte angezeigt. Vielleicht sollten Sie eine andere Basisschicht (zB OSM) deaktivieren Sie es sehen können"
         }
     }
 }

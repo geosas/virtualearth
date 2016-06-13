@@ -3,6 +3,7 @@ Ext.namespace("GEOR.Addons");
 GEOR.Addons.VirtualEarth = Ext.extend(GEOR.Addons.Base, {
 
     bingLayer: null,
+    layerIndex: 1,
 
     /**
      * Method: init
@@ -48,7 +49,11 @@ GEOR.Addons.VirtualEarth = Ext.extend(GEOR.Addons.Base, {
     onCheckchange: function(item, checked) {
         if (checked) {
             this.map.addLayer(this.bingLayer);
+            this.map.setLayerIndex(this.bingLayer,this.layerIndex);
+            GEOR.helper.msg("Virtual Earth",
+                            OpenLayers.i18n("virtualearth.helper_message"));
         } else {
+            this.layerIndex = this.map.getLayerIndex(this.bingLayer);
             this.map.removeLayer(this.bingLayer);
         }
     },
@@ -64,16 +69,11 @@ GEOR.Addons.VirtualEarth = Ext.extend(GEOR.Addons.Base, {
             type : this.options.type,
             projection: GEOR.config.MAP_SRS,
             isBaseLayer: true,
-            displayInLayerSwitcher: true
+            displayInLayerSwitcher: true,
+            rendererOptions: {
+                zIndexing: true
+            }
         });
-    },
-
-    /**
-     * Method: tr
-     *
-     */
-    tr: function(str) {
-        return OpenLayers.i18n(str);
     },
 
     /**
