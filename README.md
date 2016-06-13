@@ -1,7 +1,7 @@
 Addon Virtual Earth
 ===================
 
-This addon allows user to display Virtual Earth basemap on all over the world.
+This geOrchestra viewer addon allows user to display Virtual Earth basemap on all over the world.
 
 Authors: @hsquividant
 
@@ -22,10 +22,14 @@ Example addon config:
         "title": {
             "en": "Bing - Virtual Earth Base Map",
             "fr": "Fond de carte Virtual Earth",
+            "es": "Mapa base de Virtual Earth",
+            "de": "Virtual Earth Kartenhintergrund",
         },
         "description": {
             "en": "Microsoft Bing - Virtual Earth Base Map all over the world",
             "fr": "Fond de carte Microsoft Bing - Virtual Earth sur le monde entier",
+            "es": "Mapa base de Microsoft Bing - Virtual Earth en todo el mundo",
+            "de": "Microsoft Bing - Virtual Earth Kartenhintergrund auf der ganzen Welt",
         }
     }
 ```
@@ -33,10 +37,9 @@ Example addon config:
 ### Setup
 
 First, you have to create an account on Bing web site https://www.bingmapsportal.com and then you can create your own key. 
+In your *config.json* file, you have to replace **key** option by your own key and choose **type** and **name** between 5 different basemaps :
 
-You can choose between five different basemaps :
-
-Type | Title
+Type | Name
 ---- | -----
 Aerial | Aerial imagery
 AerialWithLabels | Aerial imagery with a road overlay

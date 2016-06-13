@@ -11,10 +11,14 @@
         "title": {
             "en": "Bing - Virtual Earth Base Map",
             "fr": "Fond de carte Virtual Earth",
+            "es": "Mapa base de Virtual Earth",
+            "de": "Virtual Earth Kartenhintergrund",
         },
         "description": {
             "en": "Microsoft Bing - Virtual Earth Base Map all over the world",
             "fr": "Fond de carte Microsoft Bing - Virtual Earth sur le monde entier",
+            "es": "Mapa base de Microsoft Bing - Virtual Earth en todo el mundo",
+            "de": "Microsoft Bing - Virtual Earth Kartenhintergrund auf der ganzen Welt",
         }
     }
 ]
