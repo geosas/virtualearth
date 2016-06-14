@@ -49,12 +49,13 @@ GEOR.Addons.VirtualEarth = Ext.extend(GEOR.Addons.Base, {
     onCheckchange: function(item, checked) {
         if (checked) {
             this.map.addLayer(this.bingLayer);
+            this.layerIndex = (this.layerIndex > 0)?this.layerIndex:1;
             this.map.setLayerIndex(this.bingLayer,this.layerIndex);
             GEOR.helper.msg("Virtual Earth",
                             OpenLayers.i18n("virtualearth.helper_message"));
-        } else {
-            this.layerIndex = this.map.getLayerIndex(this.bingLayer);
-            this.map.removeLayer(this.bingLayer);
+        } else if (OpenLayers.Util.indexOf(this.map.layers, this.bingLayer) >= 0) {
+                this.layerIndex = this.map.getLayerIndex(this.bingLayer);
+                this.map.removeLayer(this.bingLayer);
         }
     },
 
